@@ -18,16 +18,16 @@ namespace TextAnalyzer
         {
             InitializeComponent();
         }
-        //Использую async для выполнения длительной операции анализа текста в фоновом потоке.
+        //Использую async для выполнения длительной операции анализа текста в фон. потоке.
         private async void analyzeButton_Click(object sender, EventArgs e)
         {
-            // Инициализация токена отмены
+            // Инициализац. токена отмены
             _cancellationTokenSource = new CancellationTokenSource();
             var token = _cancellationTokenSource.Token;
 
             try
             {
-                // Запуск анализа текста
+                // Запускаю анализ текста
                 var report = await Task.Run(() => AnalyzeText(inputTextBox.Text, token), token);
                 reportTextBox.Text = report;
             }
@@ -48,7 +48,7 @@ namespace TextAnalyzer
         }
         private string AnalyzeText(string text, CancellationToken token)
         {
-            // Проверка на отмену
+            // Проверяю на отмену
             token.ThrowIfCancellationRequested();
 
             int sentenceCount = 0;
@@ -65,17 +65,17 @@ namespace TextAnalyzer
                 // Проверка на отмену
                 token.ThrowIfCancellationRequested();
 
-                // Увеличиваем счетчик предложений
+                // Увеличиваю счетчик предложений
                 sentenceCount++;
 
                 // Подсчет слов
                 var words = sentence.Split(new[] {' ','\n','\r'}, StringSplitOptions.RemoveEmptyEntries);
                 wordCount += words.Length;
 
-                // Проверяем, какое это предложение
+                // Проверяю, какое это предложение
                 string trimmedSentence = sentence.Trim();
                 if (trimmedSentence.EndsWith("?"))
-                    {
+                {
                         questionCount++;
                     }
 
@@ -105,7 +105,7 @@ namespace TextAnalyzer
                 wordCount += words.Length;
             }*/
 
-            // Формирование отчета
+            // Формирую отчет
             StringBuilder reportBuilder = new StringBuilder();
             reportBuilder.AppendLine($"Количество предложений: {sentenceCount}");
             reportBuilder.AppendLine($"Количество символов: {characterCount}");
