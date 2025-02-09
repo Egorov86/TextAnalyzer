@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyzer", "TextAnalyzer\TextAnalyzer.csproj", "{7BF74A18-35C5-4A48-B76C-D762ED930207}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program", "Program\Program.csproj", "{AC3CE954-ADA0-4AAA-BAAA-7FD7CA6C955B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticWork", "PracticWork\PracticWork.csproj", "{8A5C47F6-39FA-4D07-ACFA-AF1D2368BA13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filtering_Words", "Filtering_Words\Filtering_Words.csproj", "{41E8A564-DC73-402B-A5E3-E131F796EC9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserContactValidator", "UserContactValidator\UserContactValidator.csproj", "{D7E5D7B8-BEEE-412E-B8DB-DC9E71DB27FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactValidationApp", "ContactValidationApp\ContactValidationApp.csproj", "{084231EB-9841-4ED6-8653-960DB6DEE04C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{AC3CE954-ADA0-4AAA-BAAA-7FD7CA6C955B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC3CE954-ADA0-4AAA-BAAA-7FD7CA6C955B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC3CE954-ADA0-4AAA-BAAA-7FD7CA6C955B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A5C47F6-39FA-4D07-ACFA-AF1D2368BA13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A5C47F6-39FA-4D07-ACFA-AF1D2368BA13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A5C47F6-39FA-4D07-ACFA-AF1D2368BA13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A5C47F6-39FA-4D07-ACFA-AF1D2368BA13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41E8A564-DC73-402B-A5E3-E131F796EC9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41E8A564-DC73-402B-A5E3-E131F796EC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41E8A564-DC73-402B-A5E3-E131F796EC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41E8A564-DC73-402B-A5E3-E131F796EC9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7E5D7B8-BEEE-412E-B8DB-DC9E71DB27FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E5D7B8-BEEE-412E-B8DB-DC9E71DB27FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E5D7B8-BEEE-412E-B8DB-DC9E71DB27FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E5D7B8-BEEE-412E-B8DB-DC9E71DB27FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{084231EB-9841-4ED6-8653-960DB6DEE04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{084231EB-9841-4ED6-8653-960DB6DEE04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{084231EB-9841-4ED6-8653-960DB6DEE04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{084231EB-9841-4ED6-8653-960DB6DEE04C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
